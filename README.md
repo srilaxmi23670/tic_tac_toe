@@ -7,3 +7,7 @@ Rules of the game:
 2. You are 'X', your friend (or the computer in this case) is 'O'. Players take turns putting their marks in empty squares.
 3. The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.
 4. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.
+
+This is implemented using dictionary data structure in which keys will be the location.(i.e : top-left,mid-right,etc.)
+Initialliy it's values will be empty space.
+Then after every move we will change the value according to player's choice of move.
